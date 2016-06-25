@@ -1,6 +1,6 @@
 {
-  "name": "nativescript-ng2-yourplugin",
-  "version": "0.0.0",
+  "name": "nativescript-ng2-plugin-seed",
+  "version": "1.0.0",
   "description": "Your awesome NativeScript + Angular plugin.",
   "main": "yourplugin.js",
 	"nativescript": {
