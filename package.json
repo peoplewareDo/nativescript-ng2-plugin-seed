@@ -18,7 +18,7 @@
     "ng2",
     "nativescript"
   ],
-  "author": "Your Name <yourname@yourdomain.com>",
+  "author": "Your Name <youremail@yourdomain.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/YourName/nativescript-ng2-yourplugin/issues"
@@ -32,7 +32,7 @@
     "test-watch": "karma start --no-single-run --auto-watch",
     "ci": "npm run test",
     "docs": "typedoc --options typedoc.json src/app/app.ts",
-	"repair": "cd src && tns plugin add .. && tns install",
+	  "repair": "cd src && tns plugin add .. && tns install",
     "postinstall": "typings install",
     "preparedemo": "npm run build && cd src && tns plugin remove nativescript-ng2-yourplugin && tns plugin add .. && tns install",
     "setup": "cd src && npm i"
